@@ -1,0 +1,23 @@
+{
+  "name": "faaspost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "faaspost": "bin/index.js"
+  },
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "commander": "^2.20.0",
+    "download-git-repo": "^1.1.0",
+    "parcel-bundler": "^1.12.3",
+    "request": "^2.88.0",
+    "webpack": "^4.30.0",
+    "zip-local": "^0.3.4"
+  }
+}
